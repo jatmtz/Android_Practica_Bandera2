@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/verde"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="#009900"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jatziri Mtz Parra 4C"
+        android:textSize="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        />
+
+    <View
+        android:id="@+id/blanco"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_below="@id/verde"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/rojo"
+        />
+
+    <View
+        android:id="@+id/barra1"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:layout_below="@id/verde"
+        android:layout_above="@id/rojo"
+        android:layout_alignStart="@id/barra2"
+        android:layout_marginStart="170dp"
+
+        />
+
+    <View
+        android:id="@+id/barra2"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:layout_below="@id/verde"
+        android:layout_above="@id/rojo"
+        android:layout_marginStart="120dp"
+        />
+
+    <View
+        android:id="@+id/rojo"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="#FF0000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
+
+  </RelativeLayout>
